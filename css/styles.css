@@ -1,0 +1,122 @@
+/* Box model fix
+------------------------------------*/
+
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+/* Color Palette
+#a6c6ea
+#92a6db
+#ffffff
+#e5e5e5
+#000000
+*/
+
+/* Global styles 
+------------------------------------*/
+body {
+    background: #a6c6ea;
+    margin: 0;
+}
+
+.content-wrap {
+    max-width: 950px;
+    margin: 0 auto;
+    padding: 50px;
+    overflow: hidden;
+}
+
+h1, h2 {
+    font-family: 'Bebas Neue', cursive;
+    margin: 0;
+}
+
+h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 2em;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+/* Header & Footer 
+------------------------------------*/
+header, footer {
+    background: #92a6db;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1,
+header h2 {
+    margin: 0;
+}
+
+.profile-img {
+    border-radius: 50%;
+    width: 300px;
+}
+
+.column-narrow {
+    width: 30%;
+    float: left;
+    padding-right: 3%;
+    min-height: 175px;
+}
+
+.column-wide {
+    width: 70%;
+    float: left;
+    min-height: 225px;
+}
+
+.contact-info a,
+.social-links a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.contact-info a {
+    padding: 10px;
+    display: inline-block;
+}
+
+.social-links a {
+    margin: 0 10px;
+}
+
+footer {
+    text-align: center;
+}
+
+/* Work Experience
+------------------------------------*/
+.work-experience {
+    background: #e5e5e5;
+    padding: 20px;
+    margin-bottom: 20px;
+    font-family: 'Slabo 27px', serif;
+}
+
+/* Education
+------------------------------------*/
+.education {
+    background: #e5e5e5;
+    padding: 20px;
+    margin-bottom: 20px;
+    font-family: 'Slabo 27px', serif;
+}
+
+.job-item,
+.education-item {
+    overflow: hidden;
+    margin-bottom: 20px;
+}
