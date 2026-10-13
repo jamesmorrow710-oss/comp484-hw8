@@ -55,6 +55,21 @@ header, footer {
     text-align: center;
 }
 
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #92a6db;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px;
+    display: inline-block;
+}
+
 header h1,
 header h2 {
     margin: 0;
@@ -113,6 +128,19 @@ footer {
     padding: 20px;
     margin-bottom: 20px;
     font-family: 'Slabo 27px', serif;
+}
+.img-bg {
+    width: 100%;
+    background: url('../images/csun.jpg') no-repeat center center;
+    left: 0;
+    background-size: cover;
+}
+.alpha-bg {
+    color: #fbfbfb;
+    width: 100%;
+    background: rgba(171, 171, 210, 0.75);
+    height: 250px;
+    padding: 20px;
 }
 
 .job-item,
